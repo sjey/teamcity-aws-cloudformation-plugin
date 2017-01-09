@@ -23,6 +23,6 @@ and was adapted for CloudFormation
 
 ## Thanks
 
-This project started from the codebase in [teamcity-aws-codedeploy-plugin](https://github.com/JetBrains/teamcity-aws-codedeploy-plugin). So huge thanks to vbedrosova and team.
+This project started from the codebase in [teamcity-aws-codedeploy-plugin](https://github.com/JetBrains/teamcity-aws-codedeploy-plugin). So huge thanks to @vbedrosova and team.
 
 ---
