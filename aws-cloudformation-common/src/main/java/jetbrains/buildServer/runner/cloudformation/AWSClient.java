@@ -234,9 +234,9 @@ public class AWSClient {
 		// "https://s3-us-west-2.amazonaws.com/" + s3BucketName + "/" +
 		// s3ObjectKey;
 		String templateUrl;
-		templateUrl = "https://s3-ap-southeast-2.amazonaws.com" + "/" + s3Bucket + "/" + s3Object;
-		// templateUrl = "https://" + region.getServiceEndpoint("s3") + "/" +
-		// s3Bucket + "/" + s3Object;
+		// hard coded s3 bucket location
+		// templateUrl = "https://s3-ap-southeast-2.amazonaws.com" + "/" + s3Bucket + "/" + s3Object;
+		templateUrl = "https://" + region.getServiceEndpoint("s3") + "/" +  s3Bucket + "/" + s3Object;
 		return templateUrl;
 	}
 
