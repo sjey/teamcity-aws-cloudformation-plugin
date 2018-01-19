@@ -30,10 +30,14 @@ public final class AWSRegions {
   static {
     REGION_NAMES_FOR_WEB = new LinkedHashMap<String, String>();
     REGION_NAMES_FOR_WEB.put("us-east-1", "US East (N. Virginia)");
+    REGION_NAMES_FOR_WEB.put("us-east-2", "US East (Ohio)");
     REGION_NAMES_FOR_WEB.put("us-west-1", "US West (N. California)");
     REGION_NAMES_FOR_WEB.put("us-west-2", "US West (Oregon)");
-    REGION_NAMES_FOR_WEB.put("eu-west-1", "EU West (Dublin)");
-    REGION_NAMES_FOR_WEB.put("eu-central-1", "EU Central (Frankfurt)");
+    REGION_NAMES_FOR_WEB.put("ca-central-1", "Canada (Central)");
+    REGION_NAMES_FOR_WEB.put("eu-west-1", "EU (Ireland)");
+    REGION_NAMES_FOR_WEB.put("eu-central-1", "EU (Frankfurt)");
+    REGION_NAMES_FOR_WEB.put("eu-west-3", "EU (Paris)");
+    REGION_NAMES_FOR_WEB.put("eu-west-2", "EU (London)");
     REGION_NAMES_FOR_WEB.put("sa-east-1", "South America (Sao Paulo)");
     REGION_NAMES_FOR_WEB.put("ap-northeast-1", "Asia Pacific (Tokyo)");
     REGION_NAMES_FOR_WEB.put("ap-northeast-2", "Asia Pacific (Seoul)");
@@ -41,6 +45,8 @@ public final class AWSRegions {
     REGION_NAMES_FOR_WEB.put("ap-southeast-2", "Asia Pacific (Sydney)");
     REGION_NAMES_FOR_WEB.put("us-gov-west-1", "AWS GovCloud (US)");
     REGION_NAMES_FOR_WEB.put("cn-north-1", "China (Beijing)");
+    REGION_NAMES_FOR_WEB.put("cn-northwest-1", "China (Ningxia)");
+    REGION_NAMES_FOR_WEB.put("ap-south-1", "Asia Pacific (Mumbai)");
   }
 
   @NotNull
