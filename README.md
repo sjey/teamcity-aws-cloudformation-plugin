@@ -10,12 +10,13 @@ and was adapted for CloudFormation
 * Creates stacks.
 * Delete Stack
 * Validate Stack
+* Update Stack
 
 ## TO-DO
 
-* Update Stack
+* Create or Update Stack
 * Handle errors properly - stack validate/create/update/delete
-* Cosmetic changes to logging
+* Cosmetic changs to delete stack screen
 
 ## Release
 
