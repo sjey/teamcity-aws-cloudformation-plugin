@@ -104,6 +104,13 @@ public class AWSClients {
 
   @NotNull
   private static ClientConfiguration createClientConfiguration() {
-    return new ClientConfiguration().withUserAgent("JetBrains TeamCity " + ServerVersionHolder.getVersion().getDisplayVersion());
+	String proxyHost = System.getenv("PROXY_HOST");
+	int proxyPort = Integer.parseInt(System.getenv("PROXY_PORT"));
+	ClientConfiguration config = new ClientConfiguration();
+	if ( proxyHost != null ) {
+	  config.setProxyHost(proxyHost);
+	  config.setProxyPort(proxyPort);
+	}
+	return config.withUserAgent("JetBrains TeamCity " + ServerVersionHolder.getVersion().getDisplayVersion()); 
   }
 }
