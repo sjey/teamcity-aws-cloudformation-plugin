@@ -22,8 +22,3 @@ and was adapted for CloudFormation
 
 * 0.0.1-beta [teamcity-aws-cloudformation-plugin](https://github.com/sjey/teamcity-aws-cloudformation-plugin/releases/download/0.0.1-beta/team-aws-cloudformation-plugin.zip)
 
-## Thanks
-
-This project started from the codebase in [teamcity-aws-codedeploy-plugin](https://github.com/JetBrains/teamcity-aws-codedeploy-plugin). So huge thanks to @vbedrosova and team.
-
----
